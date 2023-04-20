@@ -11,7 +11,7 @@ urlpatterns = [
     path ('', views.mi_vista, name = 'inicio'),
     
     path('crear-superheroe/', views.crear_superheroe, name = 'crear_superheroe'),
-    path('superheroe/', views.lista_superheroe, name = 'listar_superheroe'),
+    path('superheroes/', views.lista_superheroes, name = 'lista_superheroes'),
 
     
 ]

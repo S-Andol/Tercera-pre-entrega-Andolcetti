@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
-app_name = 'inicio'
+# app_name = 'inicio'
 
 urlpatterns = [
     path('inicio/', include('inicio.urls')),
